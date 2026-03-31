@@ -86,7 +86,7 @@ const App = () => {
         submitHandler(e)
       }}>
         <input className='px-4 py-3 text-xl m-5' type="text"  />
-        <button className='px-4 text-white py-3 m-5 text-xl'>Submit</button>
+        <button className='px-4 text-white py-3 m-5 text-xl font-semibold'>Submit</button>
       </form>
     </div>
   )
