@@ -72,24 +72,50 @@
 // export default App
 
 
-import React from 'react'
+// import React from 'react'
 
-const App = () => {
-  const submitHandler = (e)=>{
-    e.preventDefault()
+// const App = () => {
+//   const submitHandler = (e)=>{
+//     e.preventDefault()
 
-    console.log("submitted")
-  }
-  return (
-    <div>
-      <form onSubmit={(e)=>{
-        submitHandler(e)
-      }}>
-        <input className='px-4 py-3 text-xl m-5' type="text"  />
-        <button className='px-4 text-white py-3 m-5 text-xl font-semibold'>Submit</button>
-      </form>
-    </div>
-  )
-}
+//     console.log("submitted")
+//   }
+//   return (
+//     <div>
+//       <form onSubmit={(e)=>{
+//         submitHandler(e)
+//       }}>
+//         <input className='px-4 py-3 text-xl m-5' type="text"  />
+//         <button className='px-4 text-white py-3 m-5 text-xl font-semibold'>Submit</button>
+//       </form>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
+
+// import React, { useState } from 'react'
+
+// const App = () => {
+//   const submitHandler = (e)=>{
+//     e.preventDefault()
+
+//     console.log("submitted")
+//   }
+
+//   const [username, setusername] = useState("Manas Kale")
+//   return (
+//     <div>
+//       <form onSubmit={(e)=>{
+//         submitHandler(e)
+//       }}>
+//         <input 
+//         value={username}
+//         className='px-4 py-3 text-xl m-5' type="text" placeholder='Enter Your Name' />
+//         <button className='px-4 text-white py-3 m-5 text-xl font-semibold'>Submit</button>
+//       </form>
+//     </div>
+//   )
+// }
+
+// export default App
