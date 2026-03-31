@@ -3,3 +3,13 @@ body{
     background-color: black;
     color: white;
 }
+
+button{
+    background-color: green;
+    border-radius: 5%;
+}
+
+input{
+    background-color: aliceblue;
+    color: black;
+}
