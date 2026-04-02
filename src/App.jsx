@@ -20,6 +20,26 @@
 // export default App
 
 
+// const App = () => {
+//   let user = "Manas"
+
+//    const changeUser = () =>{
+//     console.log(user)
+//     user = "Blazexe"
+//     console.log(user)
+//    }
+
+//   return (
+//     <div>
+//       <h1>Username is {user} </h1>
+//       <button onClick={changeUser}>Change User</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 
 // HOOKS -special type of functions
 
